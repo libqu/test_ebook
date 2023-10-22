@@ -2,10 +2,6 @@ name: Main Workflow
 
 on: push
 
-permissions:
-  contents: write  # for creating a release
-  actions: read    # for GitHub actions
-  
 jobs:
   ebook-release:
     uses: libqu/workflows/.github/workflows/ebook-release.yml@main
