@@ -10,7 +10,7 @@
 
 		.title{
 			font-size: 150px;
-		}
+		} 
 
 		.author{
 			font-size: 105px;
